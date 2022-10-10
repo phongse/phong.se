@@ -6,11 +6,9 @@ type Props = {};
 const Navbar = (props: Props) => {
   return (
     <>
-      <div></div>
       <div className="flex flex-row items-center space-x-8">
-        <NavbarLink href="#about" text="About" />
-        <NavbarLink href="#projects" text="Projects" />
-        <NavbarLink href="#contact" text="Contact" />
+        <NavbarLink href="/" text="Home" />
+        <NavbarLink href="/blog" text="Blog" />
       </div>
     </>
   );
