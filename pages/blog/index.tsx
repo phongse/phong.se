@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import PostType from "../../interfaces/post";
 import { getAllPosts } from "../../lib/blog";
-import dateFormat from "../../lib/dateFormat";
 
 type Props = {
   allPosts: PostType[];
@@ -22,7 +21,10 @@ const BlogIndex = ({ allPosts }: Props) => {
                   </a>
                 </Link>
               </h3>
-              <time className="text-gray-400" dateTime={post.date}>
+              <time
+                className="text-gray-400 ml-5 whitespace-nowrap"
+                dateTime={post.date}
+              >
                 {post.date}
               </time>
             </div>
