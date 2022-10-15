@@ -62,7 +62,7 @@ const About = (props: Props) => {
                 className="text-gray-600 hover:text-gray-800 transition-all"
               />
             </a>
-            <a href="mailto:phong.1e63x@slmail.me">
+            <a href="mailto:me@phong.se">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 size="2xl"

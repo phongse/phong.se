@@ -14,8 +14,8 @@ const Contact = (props: Props) => {
       <p className="leading-normal">Get in touch with me.</p>
       <ul className="pt-3">
         <ContactItem
-          href="mailto:phong.1e63x@slmail.me"
-          text="phong.1e63x@slmail.me"
+          href="mailto:me@phong.se"
+          text="me@phong.se"
           icon={faEnvelope}
         />
         <ContactItem
