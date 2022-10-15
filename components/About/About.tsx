@@ -27,6 +27,7 @@ import {
   Fastapi,
   Tailwindcss,
   Bootstrap,
+  Prisma,
 } from "@icons-pack/react-simple-icons";
 
 type Props = {};
@@ -86,7 +87,7 @@ const About = (props: Props) => {
         <h4 className="leading-normal  mb-6 ">
           Technologies that I use or previously worked with
         </h4>
-        <div className="flex gap-4 pl-10 pr-10 flex-wrap justify-center text-gray-800 text-4xl">
+        <div className="flex gap-4 pl-6 pr-6 flex-wrap justify-center text-gray-800 text-4xl">
           <Python title="Python" size={32} />
           <Javascript title="Javascript" size={32} />
           <Typescript title="Typescript" size={32} />
@@ -99,6 +100,7 @@ const About = (props: Props) => {
           <Fastapi title="FastAPI" size={32} />
           <Nodedotjs title="Node.js" size={32} />
           <Pandas title="Pandas" size={32} />
+          <Prisma title="Prisma" size={32} />
           <Git title="Git" size={32} />
           <Linux title="Linux" size={32} />
           <Docker title="Docker" size={32} />
