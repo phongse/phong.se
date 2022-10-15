@@ -6,9 +6,9 @@ type Props = { children?: ReactNode };
 const Layout = (props: Props) => {
   return (
     <>
-      <header className="flex flex-wrap justify-start max-w-3xl mx-auto xl:items-center pt-5 pr-5 pl-5">
+      {/* <header className="flex flex-wrap justify-start max-w-3xl mx-auto xl:items-center pt-5 pr-5 pl-5">
         <Navbar />
-      </header>
+      </header> */}
       <main className="max-w-3xl mx-auto pt-16 pr-5 pl-5">
         {props.children}
       </main>
