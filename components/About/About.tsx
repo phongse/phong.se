@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/future/image";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -40,12 +40,15 @@ const About = (props: Props) => {
           <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black">
             Phong Tran
           </h1>
-          <h2 className="text-gray-700 mb-4">Software engineer</h2>
+          <h2 className="text-gray-700 mb-4">
+            Software developer at{" "}
+            <span className="font-semibold">5monkeys</span>
+          </h2>
           <p className="leading-normal">
-            I am a full-stack developer based in Sweden. Former developer for
-            the Danish Energy Agency. Work experience within Flask, FastAPI,
-            MongoDB, Docker, and Kubernetes. Now looking for new opportunities
-            in Sweden or remote. Reach out to me for any inquiries.
+            I am a full-stack developer based in Sweden. Current back-end
+            developer at 5monkeys, former developer for the Danish Energy
+            Agency. Work experience within Flask, FastAPI, MongoDB, Docker, and
+            Kubernetes. Reach out to me for any inquiries.
           </p>
           <div className="flex items-start space-x-3 pt-5 pb-5">
             <a href="https://github.com/phongse">
